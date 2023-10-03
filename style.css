@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+SVGiSVGi<path class="cls-1" d="m589.82,496.66c-1.69,0-3.39,0-5.08,0-.74,0-.75,0-.75-.76,0-2.63,0-5.26,0-7.9,0-.62-.01-.63-.62-.63-2.26,0-4.51,0-6.77,0-.08,0-.16,0-.24,0-.32-.02-.43.15-.41.44.01.19,0,.38,0,.56,0,2.55,0,5.1,0,7.65,0,.62-.01.63-.63.63-1.34,0-2.69.01-4.03,0-.41,0-.56.12-.56.55.02,1.56,0,3.11,0,4.67,0,.7,0,.7.7.71.24,0,.48,0,.73,0,1.07,0,2.15.02,3.22,0,.42,0,.6.13.55.55-.02.16,0,.32,0,.48v9.83c0,3.01,0,6.02,0,9.02,0,.67.02,1.34.1,2.01.39,3.17,1.97,5.4,5.07,6.41,2.68.88,5.44.88,8.21.62.38-.04.48-.25.48-.6-.01-1.61,0-3.22,0-4.83,0-.53-.02-.55-.55-.5-.94.08-1.88.09-2.8-.15-1.1-.28-1.83-.96-2.17-2.06-.21-.67-.29-1.36-.29-2.07,0-5.99,0-11.98,0-17.97,0-.74,0-.75.76-.75,1.69,0,3.39,0,5.08,0,.6,0,.61-.01.62-.63,0-1.56,0-3.11,0-4.67,0-.61-.01-.62-.63-.62Z"/>SVGi2SVGsSVGe2SVGregSVGregsubH}
+
+body{
+	position: absolute;
+	height: 100vh;
+	background: #05004d;
+	background-image: url("https://em-content.zobj.net/source/animated-noto-color-emoji/356/waving-hand_1f44b.gif");
+	background-repeat: no-repeat;
+    background-size: 300px auto;
+	background-attachment: fixed;
+    background-position: center;
+}
+
+.SVGhex, .SVGinneRe, .SVGoutHex, .SVGe, .SVGq, .SVGi, .SVGu, .SVGi2, .SVGt, .SVGs, .SVGe2,  .SVGreg{
+	position: fixed;
+	top: 15vh;
+	left: 0;
+    width: 842px;
+    height: 700px;	
+}
+
+.SVGhex{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: transparent;
+}
+
+.Farewell{
+	margin: 40% 0 0 0;
+	text-align: center;
+	font-size: 2em;
+	color: #6364ff;
+	position: fixed;
+	top: 0;
+	left: 0;
+    width: 842px;
+    height: 700px;	
+}
+
+.Woody{
+	margin: 73% 0 0 0;
+	text-align: center;
+	font-size: 2em;
+	color: #6364ff;
+	position: fixed;
+	top: 0;
+	left: 0;
+    width: 842px;
+    height: 700px;
+}
+
+/* CardI start */
+.CardI {
+    position: fixed;
+    width: 842px;
+    height: 1100px;
+    transition: transform 0.5s;
+	margin: 7vh 0 0 35vw;
+}
+
+.paper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    perspective: 1500px;
+}
+
+/* .front, .back of pages*/
+.front, .back {
+    background-color: #05004d;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform-origin: left;
+    transition: transform 0.5s;
+	border-radius: 0 25px 25px 0px;
+}
+
+.front {
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.back {
+    z-index: 0;
+}
+
+.front-content, .back-content {
+    width: 100%;
+    height: 100%;
+}
+
+/* displays content on back on page forwards, not backwards */
+.back-content {
+    transform: rotateY(180deg)
+}
+
+/* Paper flip effect - flips out left page - increasing  transform: rotateY(-180deg) to eg -280deg causes paper flip to back of stack like a notepad */
+.flipped .front, .flipped .back {
+    transform: rotateY(-180deg);
+}
+
+/* controls */
+button {
+	position: fixed;
+	top: 0;
+	width: 50px;
+	height: 700px;
+    border: none;
+	text-align: center;
+	align-content: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.hSec1, .hSec2, .hSec3, .hSec4, .hSec5{
+	width: 19.7%;
+	border: transparent solid 1px;
+	height: 70px;
+	float: left;
+	background-color: transparent;
+}
+
+.hbtn1{
+	position: relative;
+	width: 80%;
+	height: 60%;	
+	top: .8vh;
+	left: 40px;
+	border-radius: 25px;
+	border: 3px solid #f6f7f4;
+	align-items: center;	
+	color: #6364ff;
+}
+
+.hbtn1:hover{
+	position: relative;
+	width: 80%;
+	height: 60%;	
+	top: .8vh;
+	left: 40px;
+	border-radius: 25px;
+	border: 3px solid #6364ff;
+	align-items: center;
+	box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.5) !important;
+	color: #D8E5EE !important;
+	cursor: pointer;
+}
+
+.hbtn2{
+	position: relative;
+	width: 80%;
+	height: 60%;	
+	top: .8vh;
+	left: 14px;
+	border-radius: 25px;
+	border: 3px solid transparent;
+	align-items: center;	
+}
+
+.hText{
+	position: relative;
+	top: -17px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #6364ff;
+}
+
+#prev-btn{
+	position: fixed;
+	height: 1100px;
+	margin: 7vh 0 0 5vw;
+	z-index: 5;
+	background-color: transparent;
+	color: transparent;
+}
+
+#next-btn{
+	position: absolute;
+	height: 1100px;
+	margin: 7vh 0 0 66vw;
+	z-index: 5;
+	background-color: transparent;
+	color: transparent;
+}
+
+.backSec1, .backSec2, .backSec3, .frontSec1, .frontSec2, .frontSec3{
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+	width: 100%;
+	height: 33.33%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.backSec1{
+	background-color: #f7f6fc;
+}
+
+.backSec2{
+	font-size: 15em;
+	background-color: #f7f6fc;
+}
+
+.good{
+	margin: 50px 0 0 0;
+}
+
+.backSec3{
+	background-color: #f7f6fc;
+}
+
+.frontSec1{
+	background-color: #f7f6fc;
+}
+
+.frontSec2{
+	font-size: 15em;
+	background-color: #f7f6fc;
+}
+
+.luck{
+	margin: 50px 0 0 0;
+}
+
+.frontSec3{
+	background-color: #f7f6fc;
+}
+
+.backSecIn1, .backSecIn2, .backSecIn3, .backSecIn4, .backSecIn5, .frontSecIn1, .frontSecIn2, .frontSecIn3, .frontSecIn4, .frontSecIn5{
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+	width: 19.7%;
+	height: 100%;
+	border: 1px solid transparent; 
+	border-radius: 0 25px 25px 0px;
+}
+
+.cBack1, .cBack2, .cBack3{
+	top: 0;
+	left: 0;
+	position: relative;
+	width: 100%;
+	height: 33.33%;
+	float: left;
+	text-align: center;
+}
+
+.best, .wishes{
+	margin: 10% 0 0 0;
+	font-size: 12em;
+	color: #6364ff;
+}
+
+.fromAll{
+	margin: 16% 0 0 0;
+	font-size: 5.5em;
+	color: #f6f7f4;
+}
+
+/* Paper stack order */
+#p1 {
+    z-index: 4;
+}
+
+#p2 {
+    z-index: 3;
+}
+
+/* CardI end */
